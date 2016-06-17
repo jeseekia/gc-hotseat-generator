@@ -23,7 +23,13 @@ var lastSelectionNumber = choices[choices.length-2];
 //2nd to last selectionNumber for comparing random
 var secondLastSelectionNumber = choices[choices.length-3];
 
+var mySuspense;
 
+//called "onload" in the body section
+function startSuspense(){
+	mySuspense = new sound(ykm_547b5677.mp3)
+	mySuspense.Play
+}
 
 
 $button.click(function(){
