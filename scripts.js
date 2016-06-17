@@ -83,23 +83,23 @@ else// if (choices.length=2)
 
   switch (selectionNumber) {
     case 1:
-        $luckyWinner.attr("src", "http://www.grandcircus.co/perch/resources/kim-2.jpg");
+        $luckyWinner.attr("src", "images/tammie.jpg");
       break;
 
     case 2:
-        $luckyWinner.attr("src", "http://www.grandcircus.co/perch/resources/kyle.jpg");
+        $luckyWinner.attr("src", "images/kyle.jpg");
       break;
 
     case 3:
-        $luckyWinner.attr("src", "http://www.grandcircus.co/perch/resources/william-2.jpg");
+        $luckyWinner.attr("src", "images/william.jpg");
       break;
 
     case 4:
-        $luckyWinner.attr("src", "https://www.drupal.org/files/x-all-the-things-template.png");
+        $luckyWinner.attr("src", "images/all-the-interns.jpg");
       break;
 
     default:
-        $luckyWinner.attr("src", "http://www.grandcircus.co/perch/resources/damien-1.jpg");
+        $luckyWinner.attr("src", "images/grant.jpeg");
   }
   console.log($luckyWinner.attr("src"));
 }
